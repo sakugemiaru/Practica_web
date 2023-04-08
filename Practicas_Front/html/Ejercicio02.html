@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02- Tablas en HTML</title>
+    <!-- stilo css-->
+    <style>
+        #Titulo{
+            margin: 3px;padding: 3px;text-align: center;
+        }
+        p{
+            position: relative;top: 1px;margin: 0px;
+        }
+        h2{
+            position: relative; margin: 0px; 
+        }
+        tr{
+            display: inline-grid;text-align: justify;margin: 10px;padding: 5px;font: message-box;
+        }
+        .item{
+            position: relative;display: flex;background-color: #b4c0c926;margin: 5px;
+        }
+        .img_Portada{
+            padding: 10px 20px 10px 20px;background-color: #b4c0c926;
+        }
+        .img_Libro{
+             width: 150px;
+        }
+        .autor{
+            text-align: initial;margin: 0px; padding: 5px;
+        }
+    </style> 
+</head>
+<body>
+    <div id="Titulo">
+        <h3>Libros Recomendados</h3>
+    </div>
+    <div class="item" >   
+        <div class="img_Portada">
+            <img class="img_Libro"  src="https://m.media-amazon.com/images/I/51c3uS-qdHL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" alt="" srcset="">
+        </div>
+        <div class="descripcion">   
+            <table> 
+                <div class="autor">
+                    <h2>Doctor Who: A Brief History of Time Lords</h2>
+                    <div><p>Steve Tribe</p><p>★★★★★</p></div>
+                </div>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año de publicación</th>
+                    <th>Enlace a Amazon</th> 
+                </tr>
+                <tr>
+                    <td>A Brief History of Time Lords</td>
+                    <td>Steve Tribe</td>
+                    <td>2017</td>
+                    <td><a href="https://www.amazon.com/-/es/Steve-Tribe/dp/006266686X/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1P8ODQ1MHUP7G&keywords=doctor+who+book&qid=1680837904&sprefix=doctor+who+lib%2Caps%2C305&sr=8-2">Amazon.com/History-TimeLords</a></td>
+                </tr>
+            </table>
+            </div>
+    </div>
+    <div class="item" >      
+        <div class="img_Portada"><img class="img_Libro"  src="https://m.media-amazon.com/images/I/511h+PKOVfL._SX325_BO1,204,203,200_.jpg" alt="" srcset=""></div>
+        <div class="descripcion">   
+            <table> 
+                <div class="autor">
+                    <h2>Doctor Who: I Am The Master: Legends of the Renegade Time Lord</h2>
+                    <div><p>Mark Wright</p><p>★★★★★</p></div>
+                </div>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año de publicación</th>
+                    <th>Enlace a Amazon</th> 
+                </tr>
+                <tr>
+                    <td>I Am The Master</td>
+                    <td>Mark Wright</td>
+                    <td>2021</td>
+                    <td><a href="https://www.amazon.com/-/es/Mark-Wright/dp/1785946315/ref=sr_1_28?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=24PHFIXY72J5A&keywords=doctor+who+book&qid=1680839644&sprefix=doctor+who+book%2Caps%2C161&sr=8-28">Amazon.com/I-Am-The-Master</a></td>
+                </tr>
+            </table>
+            </div>         
+    </div>
+    <div class="item" >       
+        <div class="img_Portada"><img class="img_Libro"  src="https://m.media-amazon.com/images/I/515VhyxoTOL.jpg" alt="" srcset=""></div>
+        <div class="descripcion">   
+            <table> 
+                <div class="autor">
+                    <h2>Doctor Who: Big Bang Generation</h2>
+                    <div>
+                        <p>Gary Russell </p><p>★★★★★</p>
+                    </div>
+                </div>              
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año de publicación</th>
+                    <th>Enlace a Amazon</th> 
+                </tr>
+                <tr>
+                    <td>Big Bang Generation</td>
+                    <td>Gary Russell </td>
+                    <td>2015</td>
+                    <td><a href="https://www.amazon.com/-/es/Gary-Russell-ebook/dp/B00XST7ICI/ref=sr_1_29?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WIJE48Z2RK8R&keywords=doctor+who+book&qid=1680839959&sprefix=doctor+who+book%2Caps%2C191&sr=8-29">Amazon.com/BigBang</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
