@@ -1,0 +1,54 @@
+body{background-color: #fbffff;}
+article{
+    display: flex;
+    text-align: center;
+}
+section{
+    border: 1px dotted;
+}
+h1{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+.figure{    
+    width: 130px;
+    height: 0;
+    border-style: solid;    
+    border-width: 0 0px 30px 10px;
+    
+    
+}
+.texto{
+    shape-outside: none;
+    clip-path: none;
+    top: 10px;
+    position: relative;
+    color: white;
+}
+p{
+    font-size: 12px;
+
+}
+img{
+    position: relative;
+    width: 210px;
+    height: 250px;
+    border: 3px;
+}
+video{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 0px;
+    background-color: #090d19;
+    border: 3px;
+}
+audio{
+    position: relative;
+    bottom: 0;
+    width: 250px;
+    margin: 110px 0px 0px 0px;
+}
