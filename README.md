@@ -1,2 +1,2 @@
-# kotome
-repasando lo aprendido desde el comienzo
+# Practicas de Desarrollo de Software.
+"Repasando lo aprendido desde el comienzo".
